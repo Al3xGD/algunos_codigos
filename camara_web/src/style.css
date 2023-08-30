@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px0;
+}
+
+body{
+    background-color: #212121;
+}
+
+header{
+    text-align: center;
+    font-family: monospace;
+    margin: 5%;
+}
+
+header h1{
+    color: #FFF;
+    font-size: 4em;
+}
+
+section{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Camara Web</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vista Camara</h1>
+    </header>
+
+    <section>
+        <div id="vista_camara">
+            <!--En donde se vera la imagen de salida de nuestra camara--->
+            <video id="video" width="640" height="480" autoplay></video>
+            <!--Boton para tomar fotos-->
+            <button id="captura">Tomar foto</button>
+            <!--Mostrar la foto tomada-->
+            <canvas id="canvas" width="640" height="480"></canvas>
+        </div>
+        <!--main.js--->
+        <script src="src/main.js"></script>
+    </section>
+</body>
+</html>
